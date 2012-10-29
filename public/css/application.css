@@ -1,0 +1,177 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+/* line 9, ../../app/assets/css/application.scss */
+body {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  color: #252519;
+  font-size: 15px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  background: #D0D0D0;
+}
+
+/* line 18, ../../app/assets/css/application.scss */
+a, a:visited {
+  color: #261a3b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 24, ../../app/assets/css/application.scss */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #E2E2E2;
+  margin: 1em 1em 1.5em;
+}
+
+/* line 31, ../../app/assets/css/application.scss */
+abbr {
+  cursor: help;
+  border-bottom: 1px dashed #000;
+}
+
+/* line 36, ../../app/assets/css/application.scss */
+p {
+  margin: 15px 0;
+  line-height: 1.7em;
+}
+
+/* line 41, ../../app/assets/css/application.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 15px 0 15px 0;
+}
+
+/* line 45, ../../app/assets/css/application.scss */
+h2 {
+  font-size: 1.2em;
+}
+
+/* line 49, ../../app/assets/css/application.scss */
+h1 {
+  padding: 10px 0 8px 0;
+  margin-top: 30px;
+  border-bottom: 1px solid #e5e5ee;
+}
+
+/* line 55, ../../app/assets/css/application.scss */
+h1 a {
+  text-decoration: none;
+}
+
+/* line 59, ../../app/assets/css/application.scss */
+pre, code {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 65, ../../app/assets/css/application.scss */
+pre {
+  overflow: auto;
+  border: 1px solid #e5e5ee;
+  margin: 0 0 15px 0;
+  background: ghostWhite;
+  padding: 5px;
+}
+
+/* line 73, ../../app/assets/css/application.scss */
+ul {
+  padding: 0;
+  margin: 10px 0;
+  list-style-position: inside;
+}
+
+/* line 79, ../../app/assets/css/application.scss */
+ul li {
+  line-height: 1.3em;
+}
+
+/* line 83, ../../app/assets/css/application.scss */
+label, label span {
+  display: block;
+}
+
+/* line 87, ../../app/assets/css/application.scss */
+label {
+  margin: 10px 0;
+}
+
+/* line 91, ../../app/assets/css/application.scss */
+label span {
+  margin: 0 0 5px 0;
+}
+
+/* line 95, ../../app/assets/css/application.scss */
+input[type=text], textarea {
+  padding: 3px;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* line 105, ../../app/assets/css/application.scss */
+input[type=text]:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: rgba(104, 189, 244, 0.8);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(104, 189, 244, 0.6);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(104, 189, 244, 0.6);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(104, 189, 244, 0.6);
+}
+
+/* line 114, ../../app/assets/css/application.scss */
+textarea {
+  padding: 5px;
+  height: 80px;
+}
+
+/* line 119, ../../app/assets/css/application.scss */
+input[type=text], textarea {
+  min-width: 200px;
+}
+
+/* line 123, ../../app/assets/css/application.scss */
+html, body {
+  overflow: auto;
+}
+
+/* line 127, ../../app/assets/css/application.scss */
+#pages {
+  overflow: none;
+  margin: 20px;
+  padding: 20px;
+  background: #FFF;
+  -webkit-box-shadow: rgba(100, 100, 100, 0.3) 0 2px 6px;
+  -moz-box-shadow: rgba(100, 100, 100, 0.3) 0 2px 6px;
+  box-shadow: rgba(100, 100, 100, 0.3) 0 2px 6px;
+}
+
+/* line 138, ../../app/assets/css/application.scss */
+#pages .loading {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  padding: 5px;
+  background: #ffffcc;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear;
+}
+
+/* line 148, ../../app/assets/css/application.scss */
+#pages.loading .loading {
+  opacity: 1;
+}
+
+/* line 152, ../../app/assets/css/application.scss */
+#pages h1 {
+  margin: 0 0 8px 0;
+}
