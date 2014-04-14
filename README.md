@@ -19,3 +19,8 @@ If you decide to copy/paste code snippets from this App you'll need to the follo
   gem 'padrino-assethelpers',  :git => 'git://github.com/bookworm/padrino-assethelpers.git'             
   gem 'padrino-responders',    :git => 'git://github.com/bookworm/padrino-responders.git'    
 ```
+
+## Support
+
+If you found this repo useful please consider supporting me on [Gittip](https://www.gittip.com/k2052) or sending me some
+bitcoin `1csGsaDCFLRPPqugYjX93PEzaStuqXVMu`
